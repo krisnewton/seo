@@ -1,0 +1,29 @@
+{
+    "name": "harishariyanto/seo",
+    "description": "SEO helper",
+    "authors": [
+        {
+            "name": "Haris Hariyanto",
+            "email": "harishariyanto299@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+    	"laravel": {
+    		"providers": [
+    			"Harishariyanto\\Seo\\SeoServiceProvider"
+    		]
+    	}
+    },
+    "autoload": {
+    	"psr-4": {
+    		"Harishariyanto\\Seo\\": "src"
+    	},
+    	"files": [
+    		"src/Helpers/seo.php",
+    		"src/Helpers/sharer.php",
+    		"src/Helpers/social.php",
+    		"src/Helpers/structured.php"
+    	]
+    }
+}
