@@ -1,6 +1,7 @@
 {
     "name": "harishariyanto/seo",
     "description": "SEO helper",
+    "type": "library",
     "authors": [
         {
             "name": "Haris Hariyanto",
