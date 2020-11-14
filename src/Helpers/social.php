@@ -72,6 +72,7 @@ function tc_description($description = '')
 	return '<meta name="twitter:description" content="' . $description . '">';
 }
 
+// Image size 1:1
 function tc_image($image = '', $alt = '')
 {
 	$output = '<meta name="twitter:image" content="' . $image . '">';
